@@ -18,7 +18,7 @@ Restaurant.open_branch(Panda)
 print("koniec klasy")
 
 # super algorytm na max
-
+print("Algorytm na maxa z listy")
 a = [0, 4, 4, 4]
 b = a[0]
 max1 = b
