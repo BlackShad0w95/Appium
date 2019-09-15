@@ -1,2 +1,33 @@
 import appium
 
+print("Panda")
+
+
+class Restaurant(object):
+    bankrupt = False
+
+    def open_branch(self):
+        if not self.bankrupt:
+            print(self.bankrupt)
+            print("branch opened")
+
+
+Panda = Restaurant()
+Restaurant.open_branch(Panda)
+
+print("koniec klasy")
+
+# super algorytm na max
+
+a = [0, 4, 4, 4]
+b = a[0]
+max1 = b
+
+# print(b)
+
+for i in a:
+    if i > b:
+        max1 = i
+
+print(max1)
+print("new")
